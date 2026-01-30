@@ -1,4 +1,5 @@
 import { createRoute } from '@granite-js/react-native';
+import { Button } from '@toss/tds-react-native';
 import type React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
@@ -26,6 +27,8 @@ function Page() {
       <TouchableOpacity style={styles.button} onPress={goToAboutPage}>
         <Text style={styles.buttonText}>Go to About Page</Text>
       </TouchableOpacity>
+
+      <Button size="tiny">test</Button>
     </Container>
   );
 }

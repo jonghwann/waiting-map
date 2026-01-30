@@ -17,6 +17,9 @@ importers:
       '@granite-js/react-native':
         specifier: 0.1.34
         version: 0.1.34(@granite-js/native@0.1.34(@babel/runtime@7.28.4)(react-native@0.72.6(@babel/core@7.28.5)(@babel/preset-env@7.28.5(@babel/core@7.28.5))(react@18.2.0))(react@18.2.0))(@swc/helpers@0.5.17)(@types/node@22.19.7)(@types/react@18.3.3)(jiti@1.21.7)(react-native@0.72.6(@babel/core@7.28.5)(@babel/preset-env@7.28.5(@babel/core@7.28.5))(react@18.2.0))(react@18.2.0)(typescript@5.9.3)(yaml@2.8.2)
+      '@toss/tds-react-native':
+        specifier: ^1.3.8
+        version: 1.3.8(@granite-js/native@0.1.34(@babel/runtime@7.28.4)(react-native@0.72.6(@babel/core@7.28.5)(@babel/preset-env@7.28.5(@babel/core@7.28.5))(react@18.2.0))(react@18.2.0))(@granite-js/react-native@0.1.34(@granite-js/native@0.1.34(@babel/runtime@7.28.4)(react-native@0.72.6(@babel/core@7.28.5)(@babel/preset-env@7.28.5(@babel/core@7.28.5))(react@18.2.0))(react@18.2.0))(@swc/helpers@0.5.17)(@types/node@22.19.7)(@types/react@18.3.3)(jiti@1.21.7)(react-native@0.72.6(@babel/core@7.28.5)(@babel/preset-env@7.28.5(@babel/core@7.28.5))(react@18.2.0))(react@18.2.0)(typescript@5.9.3)(yaml@2.8.2))(@types/react@18.3.3)(react-native@0.72.6(@babel/core@7.28.5)(@babel/preset-env@7.28.5(@babel/core@7.28.5))(react@18.2.0))(react@18.2.0)
       react:
         specifier: 18.2.0
         version: 18.2.0
