@@ -14,8 +14,6 @@ function Page() {
     navigation.navigate('/about');
   };
 
-  console.log('Page');
-
   return (
     <Container>
       <Text style={styles.title}>🎉 Welcome! 🎉</Text>
