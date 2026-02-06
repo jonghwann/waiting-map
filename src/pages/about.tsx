@@ -1,5 +1,4 @@
 import { createRoute } from '@granite-js/react-native';
-import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 export const Route = createRoute('/about', {
