@@ -7,14 +7,6 @@ export const Route = createRoute('/', {
   component: Page,
 });
 
-/**
- * Render the demo home page showcasing the Granite Framework and navigation to the About page.
- *
- * This component displays title, subtitle, description, a touchable button that navigates to '/about',
- * and a tiny-sized test Button. It logs 'Page' to the console on every render.
- *
- * @returns A React element containing the demo home page UI
- */
 function Page() {
   const navigation = Route.useNavigation();
 
@@ -26,7 +18,7 @@ function Page() {
     <Container>
       <Text style={styles.title}>🎉 Welcome! 🎉</Text>
       <Text style={styles.subtitle}>
-        This is a demo page for the{' '}
+        This is a demo page for the
         <Text style={styles.brandText}>Granite</Text> Framework.
       </Text>
       <Text style={styles.description}>
