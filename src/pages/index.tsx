@@ -1,34 +1,16 @@
 import { createRoute } from '@granite-js/react-native';
-import { Button } from '@toss/tds-react-native';
 import type React from 'react';
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 export const Route = createRoute('/', {
   component: Page,
 });
 
 function Page() {
-  const navigation = Route.useNavigation();
-
-  const goToAboutPage = () => {
-    navigation.navigate('/about');
-  };
 
   return (
     <Container>
-      <Text style={styles.title}>🎉 Welcome! 🎉</Text>
-      <Text style={styles.subtitle}>
-        This is a demo page for the
-        <Text style={styles.brandText}>Granite</Text> Framework.
-      </Text>
-      <Text style={styles.description}>
-        This page was created to showcase the features of the Granite.
-      </Text>
-      <TouchableOpacity style={styles.button} onPress={goToAboutPage}>
-        <Text style={styles.buttonText}>Go to About Page</Text>
-      </TouchableOpacity>
-
-      <Button size="tiny">test</Button>
+      <Text>Hello World</Text>
     </Container>
   );
 }
