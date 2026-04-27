@@ -1,26 +1,15 @@
 import { createRoute } from '@granite-js/react-native';
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 export const Route = createRoute('/about', {
   component: Page,
 });
 
 function Page() {
-  const navigation = Route.useNavigation();
-
-  const handleGoBack = () => {
-    navigation.goBack();
-  };
+  
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>About Granite</Text>
-      <Text style={styles.description}>
-        Granite is a powerful and flexible React Native Framework 🚀
-      </Text>
-      <TouchableOpacity style={styles.button} onPress={handleGoBack}>
-        <Text style={styles.buttonText}>Go Back</Text>
-      </TouchableOpacity>
     </View>
   );
 }
